@@ -1,0 +1,107 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #004643;
+  color: #ffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+  background: #004643;
+}
+
+.navbar img {
+  margin-bottom: 40px;
+}
+
+.mainNavbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.listaAnime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 2000px;
+  box-sizing: border-box;
+  margin-top: 1.5rem;
+  margin-left: 290px;
+  list-style: none;
+}
+
+.itemAnime {
+  width: calc((100% / 3) - 5rem);
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+  box-sizing: border-box;
+}
+
+.itemAnime:last-child {
+  margin-right: 0;
+}
+
+.itemAnime img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.mainImgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+@media (max-width: 1920px) {
+  .listaAnime {
+    margin-left: 230px;
+  }
+
+  .mainImgs {
+    overflow-x: hidden;
+  }
+}
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border-left: 1px solid transparent;
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #343536;
+  border-radius: 10px;
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: #4d4d4d;
+  border-radius: 10px;
+}

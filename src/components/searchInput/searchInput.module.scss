@@ -1,0 +1,22 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.input {
+  width: 650px;
+  height: 45px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0 40px;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.input::placeholder {
+  font-weight: bold;
+  color: #acacac;
+}
