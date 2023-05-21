@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Encurtador De Links!</h1>
+  <h1>Anime Api!</h1>
 </div>
 
 ## 📱 Layout
